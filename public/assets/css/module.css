@@ -2200,14 +2200,14 @@ button,
   /* Header */
 
     #header {
-      -moz-backface-visibility: hidden;
+      /* -moz-backface-visibility: hidden;
       -webkit-backface-visibility: hidden;
       -ms-backface-visibility: hidden;
-      backface-visibility: hidden;
-      -moz-transform: translateX(-275px);
-      -webkit-transform: translateX(-275px);
-      -ms-transform: translateX(-275px);
-      transform: translateX(-275px);
+      backface-visibility: hidden; */
+      /* -moz-transform: translateX(-275px); */
+      /* -webkit-transform: translateX(-275px); */
+      /* -ms-transform: translateX(-275px); */
+      /* transform: translateX(-275px); */
       -moz-transition: -moz-transform 0.5s ease;
       -webkit-transition: -webkit-transform 0.5s ease;
       -ms-transition: -ms-transform 0.5s ease;
@@ -2224,11 +2224,24 @@ button,
       width: 275px;
       background: #222729 url("images/overlay.png");
       box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
-    }
 
-      #header .top {
-        position: relative;
       }
+      
+      /* **********My Code*********** */
+      #header{
+        width: 25%;
+      }
+      #main {
+        margin-left: 25%;;
+      }
+      .avatar48 {
+        display: none;
+      }
+
+
+      /* #header .top {
+        position: relative;
+      } */
 
       #header .bottom {
         border-top: solid 1px rgba(255, 255, 255, 0.05);
@@ -2336,7 +2349,7 @@ button,
       -ms-transition: -ms-transform 0.5s ease;
       transition: transform 0.5s ease;
       padding-bottom: 1px;
-      margin-left: 0;
+      /* margin-left: 0; */
     }
 
       #main > section {

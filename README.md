@@ -39,6 +39,19 @@ Estimate of time needed to complete: 1 hour
 
 Start time: 1:42
 
-Finish time: 
+Finish time: 2:42 
+
+Actual time needed to complete: 1 hour
+
+=====================================================================
+
+
+Number and name of feature: **Feature #4: Add functionality**
+
+Estimate of time needed to complete: 30 minutes
+
+Start time: 2:50
+
+Finish time:  
 
 Actual time needed to complete: 
